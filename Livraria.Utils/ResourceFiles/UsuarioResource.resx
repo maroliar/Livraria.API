@@ -123,6 +123,9 @@
   <data name="CampoLoginObrigatorio" xml:space="preserve">
     <value>Campo Login é obrigatório.</value>
   </data>
+  <data name="CampoNomeUsuarioObrigatorio" xml:space="preserve">
+    <value>Campo Nome é obrigatório.</value>
+  </data>
   <data name="CampoSenhaObrigatorio" xml:space="preserve">
     <value>Campo Senha é obrigatório.</value>
   </data>

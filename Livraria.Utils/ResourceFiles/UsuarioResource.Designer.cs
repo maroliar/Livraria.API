@@ -79,6 +79,15 @@ namespace Livraria.Utils.ResourceFiles {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Campo Nome é obrigatório..
+        /// </summary>
+        public static string CampoNomeUsuarioObrigatorio {
+            get {
+                return ResourceManager.GetString("CampoNomeUsuarioObrigatorio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Campo Senha é obrigatório..
         /// </summary>
         public static string CampoSenhaObrigatorio {

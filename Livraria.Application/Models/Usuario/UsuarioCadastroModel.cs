@@ -5,7 +5,7 @@ namespace Livraria.Application.Models.Usuario
 {
     public class UsuarioCadastroModel
     {
-        [Required(ErrorMessageResourceType = typeof(UsuarioResource), ErrorMessageResourceName = "CampoNomeObrigatorio")]
+        [Required(ErrorMessageResourceType = typeof(UsuarioResource), ErrorMessageResourceName = "CampoNomeUsuarioObrigatorio")]
 
         public string Nome { get; set; }
 

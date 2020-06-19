@@ -13,7 +13,6 @@ namespace Livraria.Application.Adapters
             CreateMap<UsuarioCadastroModel, Usuario>();
 
             CreateMap<LivroCadastroModel, Livro>();
-                //.AfterMap((src, dest) => dest.ImagemCapa = Convert.FromBase64String(src.ImagemCapa));
 
             CreateMap<LivroEdicaoModel, Livro>();
         }

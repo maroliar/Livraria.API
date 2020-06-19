@@ -15,15 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Utils", "5 - Utils", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{B0E78AF6-0F77-403D-B993-7BDF52FAADCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Domain", "Livraria.Domain\Livraria.Domain.csproj", "{8B5866D2-C723-4038-8C84-A6C0DC5B136D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Domain", "Livraria.Domain\Livraria.Domain.csproj", "{8B5866D2-C723-4038-8C84-A6C0DC5B136D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Utils", "Livraria.Utils\Livraria.Utils.csproj", "{66AA2144-B6CF-4663-810F-C372E459807B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Utils", "Livraria.Utils\Livraria.Utils.csproj", "{66AA2144-B6CF-4663-810F-C372E459807B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Application", "Livraria.Application\Livraria.Application.csproj", "{A09DAC7E-4BA9-4862-8FA7-64B6A8D0587C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Application", "Livraria.Application\Livraria.Application.csproj", "{A09DAC7E-4BA9-4862-8FA7-64B6A8D0587C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Service", "Livraria.Service\Livraria.Service.csproj", "{BC0E1292-7A39-470B-A0BB-90F7B24AAC14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Service", "Livraria.Service\Livraria.Service.csproj", "{BC0E1292-7A39-470B-A0BB-90F7B24AAC14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Infra.Data", "Livraria.Infra.Data\Livraria.Infra.Data.csproj", "{B5B326AE-5D6A-4989-8B8E-910C8C41C5ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Infra.Data", "Livraria.Infra.Data\Livraria.Infra.Data.csproj", "{B5B326AE-5D6A-4989-8B8E-910C8C41C5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria.Service.Test", "Livraria.Service.Test\Livraria.Service.Test.csproj", "{5C4483E5-6BC1-414B-9139-18AE450F1D50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B5B326AE-5D6A-4989-8B8E-910C8C41C5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5B326AE-5D6A-4989-8B8E-910C8C41C5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5B326AE-5D6A-4989-8B8E-910C8C41C5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4483E5-6BC1-414B-9139-18AE450F1D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4483E5-6BC1-414B-9139-18AE450F1D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4483E5-6BC1-414B-9139-18AE450F1D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4483E5-6BC1-414B-9139-18AE450F1D50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{A09DAC7E-4BA9-4862-8FA7-64B6A8D0587C} = {AE953F19-27CA-4A0C-8AFB-1063419AF34E}
 		{BC0E1292-7A39-470B-A0BB-90F7B24AAC14} = {4ADE2CC5-386C-4AB3-8285-622201409A30}
 		{B5B326AE-5D6A-4989-8B8E-910C8C41C5ED} = {2CE74946-C249-4DB1-982B-66958872EE22}
+		{5C4483E5-6BC1-414B-9139-18AE450F1D50} = {B0E78AF6-0F77-403D-B993-7BDF52FAADCF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1D093BD-B3C4-47F3-AE59-B98D178F3BCC}

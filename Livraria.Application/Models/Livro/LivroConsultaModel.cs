@@ -5,7 +5,7 @@ namespace Livraria.Application.Models.Livro
 {
     public class LivroConsultaModel
     {
-        public virtual int IdLivro { get; set; }
+        public  int IdLivro { get; set; }
         public int ISBN { get; set; }
         public string Autor { get; set; }
 
