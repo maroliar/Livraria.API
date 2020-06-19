@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Livraria.Domain.Entities
 {
@@ -10,7 +11,7 @@ namespace Livraria.Domain.Entities
         public virtual string Nome { get; set; }
         public virtual decimal Preco { get; set; }
         public virtual DateTime DataPublicacao { get; set; }
-        public virtual byte[] ImagemCapa { get; set; }
+        public virtual string ImagemCapaUrl { get; set; }
         public virtual int IdUsuario { get; set; }
 
         //Navegabilidade

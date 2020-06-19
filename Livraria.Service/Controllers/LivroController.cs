@@ -3,12 +3,18 @@ using Livraria.Application.Models.Livro;
 using Livraria.Utils.ResourceFiles;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Security.Claims;
 
 namespace Livraria.Service.Controllers
 {
-    [Authorize("Bearer")]
+    //[Authorize("Bearer")]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class LivroController : ControllerBase
@@ -63,7 +69,6 @@ namespace Livraria.Service.Controllers
             }
         }
 
-        [AllowAnonymous]
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

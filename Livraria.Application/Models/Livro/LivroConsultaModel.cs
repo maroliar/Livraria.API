@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace Livraria.Application.Models.Livro
 {
@@ -20,7 +18,7 @@ namespace Livraria.Application.Models.Livro
         [Display(Name = "Data de Publicação")]
         public DateTime DataPublicacao { get; set; }
 
-        [Display(Name = "Capa do Livro")]
-        public byte[] ImagemCapa { get; set; }
+        [Display(Name = "URL da Capa do Livro")]
+        public string ImagemCapaUrl { get; set; }
     }
 }

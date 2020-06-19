@@ -3,8 +3,6 @@ using Livraria.Application.Contracts;
 using Livraria.Application.Models.Livro;
 using Livraria.Domain.Contracts.Services;
 using Livraria.Domain.Entities;
-using Livraria.Utils.ResourceFiles;
-using System;
 using System.Collections.Generic;
 
 namespace Livraria.Application.Services
@@ -22,7 +20,9 @@ namespace Livraria.Application.Services
 
         public void Insert(LivroCadastroModel model)
         {
+           
             var livro = mapper.Map<Livro>(model);
+           
             domain.Insert(livro);
         }
 
@@ -65,7 +65,7 @@ namespace Livraria.Application.Services
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            domain.Dispose();
         }
     }
 }

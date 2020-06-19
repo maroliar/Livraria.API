@@ -30,8 +30,8 @@ namespace Livraria.Infra.Data.Mappings
                     .HasColumnType("datetime")
                     .IsRequired();
 
-            builder.Property(l => l.ImagemCapa)
-                    .HasColumnType("varbinary(max)");
+            builder.Property(l => l.ImagemCapaUrl)
+                    .HasColumnType("nvarchar(max)");
 
 
             // One to Many relationship..

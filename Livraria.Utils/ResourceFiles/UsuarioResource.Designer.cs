@@ -97,6 +97,15 @@ namespace Livraria.Utils.ResourceFiles {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Erro ao obter o usuário logado. Por favor, faça o login novamente..
+        /// </summary>
+        public static string ErroObterUsuarioLogado {
+            get {
+                return ResourceManager.GetString("ErroObterUsuarioLogado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Login já em uso..
         /// </summary>
         public static string LoginJaEmUso {

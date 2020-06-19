@@ -43,6 +43,7 @@ namespace Livraria.Service.Controllers
                         {
                             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
                             new Claim(JwtRegisteredClaimNames.UniqueName, model.Login),
+                            new Claim(ClaimTypes.Sid, usuario.IdUsuario.ToString())
                         }
                     );
 

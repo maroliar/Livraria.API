@@ -26,8 +26,8 @@ namespace Livraria.Application.Models.Livro
         [Display(Name = "Data de Publicação")]
         public DateTime DataPublicacao { get; set; }
 
-        [Display(Name = "Upload da Capa do Livro")]
-        public byte[] ImagemCapa { get; set; }
+        [Display(Name = "URL da Capa do Livro")]
+        public string ImagemCapaUrl { get; set; }
 
     }
 }

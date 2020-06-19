@@ -129,6 +129,9 @@
   <data name="CamposSenhaConfirmacaoSenhaNaoConferem" xml:space="preserve">
     <value>Campos Senha e Confirmação de Senha não conferem.</value>
   </data>
+  <data name="ErroObterUsuarioLogado" xml:space="preserve">
+    <value>Erro ao obter o usuário logado. Por favor, faça o login novamente.</value>
+  </data>
   <data name="LoginJaEmUso" xml:space="preserve">
     <value>Login já em uso.</value>
   </data>

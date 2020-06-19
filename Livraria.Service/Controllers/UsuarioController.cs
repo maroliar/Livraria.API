@@ -8,7 +8,8 @@ using System;
 
 namespace Livraria.Service.Controllers
 {
-    [Authorize("Bearer")]
+    //[Authorize("Bearer")]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
