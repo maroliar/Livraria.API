@@ -13,7 +13,6 @@ using System.Security.Claims;
 
 namespace Livraria.Service.Controllers
 {
-    //[Authorize("Bearer")]
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
